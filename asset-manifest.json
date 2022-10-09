@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dynamicisland/static/css/main.bff17479.css",
+    "main.js": "/dynamicisland/static/js/main.0d38e809.js",
+    "static/js/787.5f43f7dc.chunk.js": "/dynamicisland/static/js/787.5f43f7dc.chunk.js",
+    "static/media/musicIcon.jpeg": "/dynamicisland/static/media/musicIcon.0eff5f8abbee2cd58379.jpeg",
+    "index.html": "/dynamicisland/index.html",
+    "main.bff17479.css.map": "/dynamicisland/static/css/main.bff17479.css.map",
+    "main.0d38e809.js.map": "/dynamicisland/static/js/main.0d38e809.js.map",
+    "787.5f43f7dc.chunk.js.map": "/dynamicisland/static/js/787.5f43f7dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bff17479.css",
+    "static/js/main.0d38e809.js"
+  ]
+}
