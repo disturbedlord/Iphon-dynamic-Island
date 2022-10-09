@@ -1,0 +1,96 @@
+.parent {
+    width: 100%;
+    height: 100%;
+}
+
+
+.notchDefault {
+    height: 40px;
+    width: 120px;
+}
+
+.musicPlayerOpen {
+    animation: musicPlayerOpen 0.1s linear;
+    height: 220px;
+    width: 420px;
+}
+
+@keyframes musicPlayerOpen {
+    0% {
+        height: 40px;
+        width: 200px;
+    }
+    50% {
+        height: 130px;
+        width: 310px;
+    }
+    100% {
+        height: 220px;
+        width: 420px;
+    }
+    /* 100% {
+        height: 35px;
+        width: 120px;
+    } */
+}
+
+.musicPlayerClose {
+    animation: musicPlayerClose 0.1s linear;
+    height: 40px;
+    width: 200px;
+}
+
+@keyframes musicPlayerClose {
+    0% {
+        height: 220px;
+        width: 420px;
+    }
+    100% {
+        height: 40px;
+        width: 200px;
+    }
+    /* 100% {
+        height: 35px;
+        width: 120px;
+    } */
+}
+
+.expand {
+    animation: smallEnlarge 0.4s linear;
+    width: 200px;
+}
+
+@keyframes smallEnlarge {
+    0% {
+        height: 40px;
+        width: 120px;
+    }
+
+    100% {
+        height: 40px;
+        width: 200px;
+    }
+}
+
+
+  .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    width: 28px;
+  }
+  
+  .line {
+    width: 20px;
+    height: 10px;
+    background-color: #ffffff;
+    margin-left: 2px;
+    border-radius: 100px;
+  }
+  
+
+  div {
+    background-color: transparent;
+  }
